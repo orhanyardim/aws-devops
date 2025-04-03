@@ -72,21 +72,21 @@ aws-devops/
 
 ### 🟡 3. ArgoCD Üzerinden Uygulama Deploy
 
-- [x] `app.yaml` dosyası yazıldı (guestbook app)
+- [ ] `app.yaml` dosyası yazılacak (guestbook app)
 - [ ] ArgoCD GUI üzerinden senkronizasyon tamamlanamadı
 - [ ] `kubectl get applications` ile uygulama başarıyla izlenemedi
 - ⚠️ Uygulama pod'ları çalışmadığı için `kubectl get nodes` sonrası yük testleri yapılamadı
 
 ### 🟡 4. RDS (Amazon Relational Database Service)
 
-- [x] `rds.tf` dosyası Terraform ile yazıldı
+- [ ] `rds.tf` dosyası Terraform ile yazılacak
 - [ ] `terraform apply` uygulanamadı (zaman kısıtlaması)
 - [ ] Veritabanı bağlantı ayarları yapılandırılmadı
 - ➕ Gelecekte uygulama ile bağlantısı Secrets Manager üzerinden yapılabilir
 
 ### 🟡 5. AWS Secrets Manager
 
-- [x] `secret.tf` dosyası oluşturuldu
+- [ ] `secret.tf` dosyası oluşturulacak
 - [ ] `terraform apply` çalıştırılmadı
 - ➕ RDS veritabanı şifresi gibi bilgileri güvenli saklamak için yapı planlandı
 
